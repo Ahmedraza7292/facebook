@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #f0f2f5;
+    font-family: 'Poppins',sans-serif;
+    color: #1c1e21;
+}
+#fb_form{
+    width: 350px;
+    height: 328px;
+    background-color: white;
+    color: #000;
+    top: 50%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    box-sizing: border-box;
+    border-radius: 3%;
+    box-shadow: 1px 1px 10px 1px grey;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+#fb_line_div{
+    margin-left: 59%;
+}
+input{
+    width: 290px;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px  solid #aaa;
+    outline: none;
+}
+#loginbtn{
+    width: 323px;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(46, 135, 250);
+    height: 50px;
+    border: none;
+    
+}
+#login{
+    color: white;
+    margin-bottom: 10px;
+}
+#main #fb_form #forgot {
+    display: block;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #dadde1;
+}
+#main #fb_form #forgot:hover{
+    text-decoration: underline;
+}
+#create_acc{
+    margin: 26px 20px 5px 20px;
+    
+    border-radius: 5px;
+    background-color: #55af3a;
+    border: none;
+    height: 50px;
+    width: 210px;
+
+}
+#create{
+    color: white;
+}
+
+p{
+    font-size: 14px;
+   
+}
+p a{
+    text-decoration:none ;
+    color: #1c1e21;
+    font-weight: 600;
+}
+p a :hover{
+    text-decoration: underline;
+
+}
+#fb_logo{
+      width: 300px;
+      height: 320px;
+     margin-top: 175px;
+     margin-left: 115px;
+}
+#fb_logo h2{
+    font: 26px;
+    font-weight:400;
+    padding: 0 30px;
+    line-height: 32px;
+    width: 500px;   
+}
+
+
+
+
+
+footer{
+    background-color: white;
+    margin-top: 300px;
+}
+#footer-contents{
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+footer ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: square;
+    padding: 10px 0;
+}
+footer ol:first-child {
+    border-bottom: 1px solid #dddfe2;
+}
+
+footer ol:first-child li:last-child button {
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    outline: none;
+    color: #4b4f56;
+    padding: 0 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+footer ol li {
+    padding-right: 15px;
+    font-size: 12px;
+    color: #385898;
+}
+
+footer ol li a {
+    text-decoration: none;
+    color: #385898;
+}
+
+footer ol li a:hover {
+    text-decoration: underline;
+}
+
+footer small {
+    font-size: 11px;
+}
